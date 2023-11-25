@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0
+    ;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url('table.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+}
+h1{
+    color: goldenrod;
+margin-bottom: 50px;
+}
+p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+button{
+    background-color: goldenrod;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    color: #01743C;
+    cursor: pointer;
+}
+
